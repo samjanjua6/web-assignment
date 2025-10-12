@@ -1,0 +1,53 @@
+.head{
+    display: flex ;
+    justify-content: space-between;
+    padding: 2px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(147, 6, 124), rgb(42, 119, 226));
+    align-items: center;
+    border-radius: 8px;
+}
+.head ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+body{
+    margin: 0px;
+}
+.head h2{
+    color: white;
+}
+
+.Buttons{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.Buttons:hover{
+    background-color: gray;
+}
+
+.Footer{
+    text-align: center;
+    background:linear-gradient(to right,rgb(147, 6, 124), rgb(18, 66, 132));
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 8px;
+    color: white;
+}
+
+.ErrorPage{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
