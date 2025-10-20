@@ -2,7 +2,7 @@
 function Footer(){
     return(
         <div className="Footer">
-        <h3>All rights reserved @UOG DATACENTER</h3>
+        <h3>All rights reserved &copy; Desi Coffee</h3>
         
         </div>
     )

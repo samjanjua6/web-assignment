@@ -1,12 +1,25 @@
 .head{
     display: flex ;
     justify-content: space-between;
-    padding: 2px 15px;
+    padding: 4px 15px;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, rgb(147, 6, 124), rgb(42, 119, 226));
     align-items: center;
     border-radius: 8px;
+    background-image: url("https://wallup.net/wp-content/uploads/2017/11/17/337967-coffee_beans-748x421.jpg");
+    background-position: center;
+
+    
 }
+.Title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Title img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;}
 .head ul{
     display: flex;
     list-style: none;
@@ -18,25 +31,42 @@ body{
 .head h2{
     color: white;
 }
+.Heading{
+    text-decoration: none;
+    color: white;
+   
+}
 
 .Buttons{
-    text-decoration: none;
-    background-color: black;
-    border-radius: 5px;
-    color: white;
-    padding: 5px 10px;
-    font-weight: bold;
+  
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #8b4513 0%, #d2691e 100%);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+
 }
 .Buttons:hover{
-    background-color: gray;
+       transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
+  background: linear-gradient(135deg, #a0522d 0%, #cd853f 100%);
 }
 
 .Footer{
     text-align: center;
-    background:linear-gradient(to right,rgb(147, 6, 124), rgb(18, 66, 132));
+    background-image: url("https://wallup.net/wp-content/uploads/2017/11/17/337967-coffee_beans-748x421.jpg");
     padding: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
+  
     width: 100%;
     bottom: 0;
     border-radius: 8px;
